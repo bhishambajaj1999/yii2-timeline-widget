@@ -12,7 +12,7 @@
             <?php endif;?>
             <li>
                 <?php
-                    $icon = (isset($history[$i]['icon_class'])) ? $history[$i]['icon_class'] : (($i==count($history)-1) ? "fa-clock-o" : "fa-check");
+                    $icon = "fa-check";
                     if(stripos($icon, 'fa-') !== false){
                         $icon .= " fa";
                     }
